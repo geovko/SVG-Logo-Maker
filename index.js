@@ -1,7 +1,6 @@
 // Runs the application using imports from lib/
 const inquirer = require('inquirer');
 const fs = require('fs');
-const Shape = require('./lib/shapes.js');
 const Circle = require('./lib/circle.js');
 const Triangle = require('./lib/triangle.js');
 const Square = require('./lib/square.js');
@@ -41,10 +40,10 @@ inquirer
             aShape = new Square(data.color, data.text, data.textColor);
         }
 
-        const newFile = `<!DOCTYPE html><html><body><svg width="300" height="500" xmlns="http://www.w3.org/2000/svg">${aShape.render()}</svg><body></html>`
+        const newFile = `<!DOCTYPE html><html><body><svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">${aShape.render()}</svg></body></html>`
 
         fs.writeFile('./util/logo.svg', newFile, (err) =>
-            err ? console.log(err) : console.log('Success!')
+            err ? console.log(err) : console.log('Generated logo.svg')
         );
     });
         
