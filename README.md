@@ -18,7 +18,7 @@ The user is then prompted to answer a list of questions which will then generate
 
 Follow the link below to find a walkthrough video.
   
-[Walk-Through Video](https://drive.google.com/file/d/1ryMGIX_h0fQkrAyq7hk5Yzkiv3B_3-JI/view](https://drive.google.com/file/d/1UMn2MPEyDux4yXIO-Gu3M_TeHnVx7Yec/view)
+[Walk-Through Video](https://drive.google.com/file/d/1UMn2MPEyDux4yXIO-Gu3M_TeHnVx7Yec/view)
 
 ## Credits
 
