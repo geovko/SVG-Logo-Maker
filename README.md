@@ -8,26 +8,17 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Since the development of a logo may not be a priority for certain projects where a simple logo instead would suffice, the main function of this particular project (SVG Logo Maker) is to generate a simple logo for users that do not feel the need to invest in a graphic designer. There were multiple parts coming into play, including the use of fs and inquirer as well as utilizing inheritance and classes. However, the main challenge for me was understanding and producing a functioning svg file of the logo since it was the most recent concept for me to tackle. However, throughtout the process, I've come to realize that eventually things fall together; one just needs to tackle the project step-by-step until the entirety of it is complete. A balance between persisting and resting is key.
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+The user must first open the terminal from the file location and input 'npm install'. Afterwards, they must input 'node index.js'
 
-## Usage
+The user is then prompted to answer a list of questions which will then generate a logo.svg file based on their responses. This file will be located in the util file folder.
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Follow the link below to find a walkthrough video.
+  
+[Walk-Through Video](https://drive.google.com/file/d/1ryMGIX_h0fQkrAyq7hk5Yzkiv3B_3-JI/view](https://drive.google.com/file/d/1UMn2MPEyDux4yXIO-Gu3M_TeHnVx7Yec/view)
 
 ## Credits
 
@@ -39,4 +30,6 @@ MIT License
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+A test for the shape files is included. It primarily tests for the 'render' function of the Shapes class children and the text character limit for the Shapes class. 
+
+To run the test, open the terminal from shapes.test.js and input 'npm test'. Please refer to the walk-through video provided above for guidance.
